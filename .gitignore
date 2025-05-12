@@ -2,7 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
+*.pyo
 
+
+# Ignore the .streamlit secrets file containing sensitive information
+.streamlit/secrets.toml
 # C extensions
 *.so
 
@@ -135,6 +140,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+myenv/
+
 
 # Spyder project settings
 .spyderproject
